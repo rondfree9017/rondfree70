@@ -31,7 +31,7 @@ jobs:
       uses: gradle/actions/setup-gradle@v3
 
     - name: Execute Gradle build
-      run: ./gradlew build
+      run: gradle wrapper --gradle-version:8.5
     
 
   dependency-submission:
